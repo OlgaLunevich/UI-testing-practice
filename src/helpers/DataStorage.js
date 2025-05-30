@@ -4,7 +4,6 @@ export default class DataStorage {
     static getStorage() {
         return storage;
     }
-
     static clearStorage() {
         storage = {};
     }

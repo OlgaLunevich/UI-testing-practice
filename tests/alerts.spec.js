@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 import { MainPage, AlertsPage } from '../src/pageObjects';
 
 test.describe.configure({ timeout: 60000 });
-
 test.beforeEach(async ({ page }) => {
     const mainPage = new MainPage(page);
     await page.goto('https://demoqa.com', { waitUntil: 'domcontentloaded' });

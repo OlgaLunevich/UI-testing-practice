@@ -1,0 +1,28 @@
+{
+  "name": "23-hr-js2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "23-HR-JS2 Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test-ui": "npx playwright test --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgalunevich/ui-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaLunevich/UI-testing-practice/issues"
+  },
+  "homepage": "https://github.com/OlgaLunevich/UI-testing-practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "cross-env": "^7.0.3",
+    "fakerator": "^0.3.6"
+  }
+}
