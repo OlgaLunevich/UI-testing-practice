@@ -4,9 +4,9 @@ on:
   schedule:
     - cron: '0 20 * * *'
   push:
-    branches: [ main, master, ui-tests ]
+    branches: [ main, master, ui-testing ]
   pull_request:
-    branches: [ main, master, ui-tests ]
+    branches: [ main, master, ui-testing ]
 
 jobs:
   test:
