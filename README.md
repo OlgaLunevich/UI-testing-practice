@@ -44,7 +44,7 @@ Projects Names:
 ### Run with filtering and flags:
       npx playwright test --grep "form/positive" --project=Firefox-1366x768
 * --grep "form/positive" – run tests that match a keyword
-* --project="firefox" – run tests in specific browser (see playwright.config.js)
+* --project="Firefox-1366x768" – run tests in specific browser (see playwright.config.js)
 * --workers=2 – run tests in parallel (2 workers)
 * --headed – run with visible browser
 
