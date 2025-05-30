@@ -1,13 +1,7 @@
 let storage = {};
 
 export default class DataStorage {
-    static getStorage() {
-        return storage;
-    }
 
-    static clearStorage() {
-        storage = {};
-    }
 
     static setNamespace(namespace, namespaceNumber, entity) {
         storage[`${namespace}_${namespaceNumber}`] = entity;
@@ -27,3 +21,11 @@ export default class DataStorage {
         return entity;
     }
 }
+
+
+// static getStorage() {
+//     return storage;
+// }
+// static clearStorage() {
+//     storage = {};
+// }
