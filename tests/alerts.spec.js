@@ -23,7 +23,7 @@ const handleDialog = async (page, expectedMessage, action = 'accept', promptInpu
     });
 };
 
-test('alert/positive: Simple alert shows corect message', async ({ page }) => {
+test('alert/positive: Simple alert shows correct message', async ({ page }) => {
     const alertsPage = new AlertsPage(page);
 
     await test.step('Trigger simple alert and verify message', async () => {
